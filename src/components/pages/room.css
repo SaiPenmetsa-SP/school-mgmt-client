@@ -1,0 +1,14 @@
+.fixed-bottom {
+  position: fixed;
+  bottom: 70px; /* Adjust this value to control vertical spacing from the bottom */
+  right: 70px; /* Adjust this value to control horizontal spacing from the right */
+  z-index: 1000; /* Ensure the icon is on top of other content */
+  background-color: white;
+  border-radius: 46px;
+}
+@media screen and (max-width: 668px) {
+  .fixed-bottom {
+    bottom: 100px;
+    right: 40px;
+  }
+}
